@@ -1,0 +1,277 @@
+{
+  "site": {
+    "name": "ENT Clinic Mobay",
+    "tagline": "Expert ENT Care in Montego Bay",
+    "phone": "(876) 555-1234",
+    "phone_tel": "+18765551234",
+    "email": "info@entclinicmobay.com",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Montego Bay, St. James",
+      "country": "Jamaica",
+      "lines": ["123 Main Street", "Montego Bay, St. James", "Jamaica"]
+    },
+    "hours": [
+      { "day": "Mon – Fri", "time": "8:00 AM – 5:00 PM" },
+      { "day": "Saturday", "time": "9:00 AM – 1:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ],
+    "footer": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copyright": "© 2026 ENT Clinic Mobay. All rights reserved. Lorem ipsum dolor sit amet."
+    },
+    "nav": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about.html" },
+      { "label": "Services", "href": "/services.html" },
+      { "label": "Our Team", "href": "/team.html" },
+      { "label": "FAQs", "href": "/faq.html" },
+      { "label": "Contact", "href": "/contact.html" }
+    ],
+    "nav_mobile": [
+      { "label": "Home", "href": "/", "icon": "🏠" },
+      { "label": "About", "href": "/about.html", "icon": "ℹ️" },
+      { "label": "Services", "href": "/services.html", "icon": "🩺" },
+      { "label": "Our Team", "href": "/team.html", "icon": "👥" },
+      { "label": "FAQs", "href": "/faq.html", "icon": "❓" },
+      { "label": "Contact", "href": "/contact.html", "icon": "✉️" }
+    ],
+    "a11y": {
+      "skip_link": "Skip to main content",
+      "section_heading": "Accessibility",
+      "font_size_label": "Font Size",
+      "contrast_label": "High Contrast"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo_title": "ENT Clinic Mobay — Home",
+      "hero": {
+        "title": "Expert ENT Care in Montego Bay",
+        "subtitle": "Compassionate, comprehensive ear, nose, and throat care for the whole family — right here in Mobay.",
+        "cta_primary": "Book an Appointment",
+        "cta_secondary": "Explore Our Services"
+      },
+      "highlights": {
+        "title": "Why Choose ENT Clinic Mobay?",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+        "cards": [
+          {
+            "icon": "👨‍⚕️",
+            "title": "Experienced ENT Specialists",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+          },
+          {
+            "icon": "🏥",
+            "title": "State-of-the-Art Facility",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+          },
+          {
+            "icon": "❤️",
+            "title": "Patient-Centered Care",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+          }
+        ]
+      },
+      "quick_links": {
+        "title": "Quick Links",
+        "cards": [
+          {
+            "icon": "👥",
+            "title": "Meet Our Team",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Learn more about our dedicated physicians and staff.",
+            "href": "/team.html"
+          },
+          {
+            "icon": "❓",
+            "title": "Medical FAQs",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Find answers to common questions about symptoms and treatments.",
+            "href": "/faq.html"
+          },
+          {
+            "icon": "✉️",
+            "title": "Contact Us",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Send us a message or give us a call.",
+            "href": "/contact.html"
+          }
+        ]
+      },
+      "map": {
+        "title": "Our Location",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "cta": {
+        "title": "Ready to Visit Us?",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Call us or book online today.",
+        "phone_text": "📞 Call (876) 555-1234",
+        "inquiry_text": "Send an Inquiry"
+      }
+    },
+    "about": {
+      "seo_title": "About — ENT Clinic Mobay",
+      "title": "About ENT Clinic Mobay",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "practice": {
+        "heading": "Our Practice",
+        "paragraphs": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        ],
+        "photo_placeholder": "🏥 Clinic Photo Placeholder"
+      },
+      "location_contact": {
+        "heading": "Location & Contact"
+      },
+      "parking": {
+        "heading": "Parking & Accessibility",
+        "cards": [
+          {
+            "icon": "🅿️",
+            "title": "Parking",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt. Complimentary parking available for all patients."
+          },
+          {
+            "icon": "♿",
+            "title": "Wheelchair Accessible",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our facility is fully wheelchair accessible with ramps and wide doorways."
+          },
+          {
+            "icon": "🚌",
+            "title": "Public Transport",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Easily accessible via main bus routes. We are located near the Montego Bay transport centre."
+          }
+        ]
+      }
+    },
+    "services": {
+      "seo_title": "Services — ENT Clinic Mobay",
+      "title": "Our Services",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "categories": [
+        {
+          "heading": "🔬 Diagnostic Services",
+          "cards": [
+            { "icon": "👂", "title": "Hearing Assessments", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🫁", "title": "Allergy Testing", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🔍", "title": "Endoscopic Examinations", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "📊", "title": "Sleep Studies", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." }
+          ]
+        },
+        {
+          "heading": "🔪 Surgical Services",
+          "cards": [
+            { "icon": "🫁", "title": "Sinus Surgery", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🗣️", "title": "Tonsillectomy & Adenoidectomy", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "👂", "title": "Ear Tube Surgery", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🦴", "title": "Thyroid & Parathyroid Surgery", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." }
+          ]
+        },
+        {
+          "heading": "💊 Treatment & Management",
+          "cards": [
+            { "icon": "🤧", "title": "Allergy Management", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "😷", "title": "Chronic Sinusitis Treatment", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🦻", "title": "Hearing Aid Services", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." },
+            { "icon": "🧠", "title": "Vestibular & Balance Therapy", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc." }
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Not Sure Which Service You Need?",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Contact us and we'll help guide you.",
+        "button": "Contact Us"
+      }
+    },
+    "team": {
+      "seo_title": "Our Team — ENT Clinic Mobay",
+      "title": "Our Team",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Meet our dedicated team of ENT specialists and healthcare professionals.",
+      "physicians": {
+        "heading": "👨‍⚕️ Physicians",
+        "members": [
+          { "avatar": "👨‍⚕️", "name": "Dr. John Smith", "credentials": "MD, FACS", "specialty": "Otolaryngology — Head & Neck Surgery", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc." },
+          { "avatar": "👩‍⚕️", "name": "Dr. Sarah Johnson", "credentials": "MD, MPH", "specialty": "Pediatric Otolaryngology", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc." },
+          { "avatar": "👨‍⚕️", "name": "Dr. Michael Brown", "credentials": "MD", "specialty": "Otology — Hearing & Balance Disorders", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc." },
+          { "avatar": "👩‍⚕️", "name": "Dr. Emily Davis", "credentials": "MD, FARS", "specialty": "Rhinology — Sinus & Allergy Surgery", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc." }
+        ]
+      },
+      "staff": {
+        "heading": "🤝 Nursing & Administrative Staff",
+        "members": [
+          { "avatar": "🩺", "name": "Lisa Williams", "credentials": "RN, BSN", "role": "Head Nurse", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+          { "avatar": "🩺", "name": "James Thompson", "credentials": "LPN", "role": "Clinical Nurse", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+          { "avatar": "📋", "name": "Maria Garcia", "credentials": "", "role": "Practice Manager", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+          { "avatar": "📞", "name": "David Clarke", "credentials": "", "role": "Patient Services Coordinator", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
+        ]
+      }
+    },
+    "faq": {
+      "seo_title": "FAQs — ENT Clinic Mobay",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Find answers to common questions about ENT conditions, symptoms, and treatments.",
+      "categories": [
+        {
+          "heading": "🩺 Symptoms & Conditions",
+          "items": [
+            { "question": "What are common symptoms of a sinus infection?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "When should I see a doctor about hearing loss?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "What causes persistent ringing in the ears (tinnitus)?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "How can I tell if my child has an ear infection?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "What are the signs of allergies vs. a cold?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." }
+          ]
+        },
+        {
+          "heading": "💊 Treatments & Procedures",
+          "items": [
+            { "question": "How is a tonsillectomy performed?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "What can I expect during a hearing test?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "How long does recovery take after sinus surgery?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "Are there non-surgical treatments for sleep apnea?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." }
+          ]
+        },
+        {
+          "heading": "📋 Appointments & Insurance",
+          "items": [
+            { "question": "How do I schedule an appointment?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "What insurance plans do you accept?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "Do I need a referral to see a specialist?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "What should I bring to my first visit?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+            { "question": "Can I cancel or reschedule an appointment?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "seo_title": "Contact — ENT Clinic Mobay",
+      "title": "Contact Us",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We'd love to hear from you.",
+      "form": {
+        "heading": "Send an Inquiry",
+        "fields": [
+          { "label": "Full Name", "type": "text", "name": "name", "placeholder": "Your full name", "required": true },
+          { "label": "Phone Number", "type": "tel", "name": "phone", "placeholder": "(876) 555-1234", "required": false },
+          { "label": "Email Address", "type": "email", "name": "email", "placeholder": "your@email.com", "required": true },
+          { "label": "Subject", "type": "select", "name": "subject", "required": true },
+          { "label": "Message", "type": "textarea", "name": "message", "placeholder": "How can we help you?", "required": true }
+        ],
+        "subject_options": [
+          { "value": "", "label": "Please select a subject" },
+          { "value": "appointment", "label": "Appointment Request" },
+          { "value": "general", "label": "General Inquiry" },
+          { "value": "insurance", "label": "Insurance Question" },
+          { "value": "records", "label": "Medical Records Request" },
+          { "value": "feedback", "label": "Feedback / Suggestion" },
+          { "value": "other", "label": "Other" }
+        ],
+        "submit_text": "Send Message",
+        "submitting_text": "Submitting your message..."
+      },
+      "sidebar": {
+        "heading": "Get in Touch",
+        "cta_phone": "📞 Call us directly at (876) 555-1234",
+        "cta_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our team is available during business hours."
+      }
+    }
+  }
+}
