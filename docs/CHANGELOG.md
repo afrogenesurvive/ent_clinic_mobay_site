@@ -1,8 +1,16 @@
 # Changelog
 
+## [main-2] — 2026-07-24
+
+### Changed
+- Reformatted `content.json` with multi-line object layout for improved readability
+- Reformatted CSS, JS, and HTML files (code style/formatting pass)
+- Updated `vite.config.js` formatting
+
 ## [main-1] — 2026-07-24
 
 ### Added
+
 - Initial project scaffolding with Vite 5 (vanilla JS template)
 - Material Web (`@material/web`) MD3 component library integration
 - Complete MD3 theme system with calming teal color palette

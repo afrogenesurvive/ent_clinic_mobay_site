@@ -5,64 +5,64 @@
 /* --- MD3 Color Tokens (Calming Medical Teal) --- */
 :root {
   /* Primary - Calming Teal */
-  --md-sys-color-primary: #006B5E;
-  --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-primary-container: #6FF7E2;
-  --md-sys-color-on-primary-container: #00201B;
+  --md-sys-color-primary: #006b5e;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #6ff7e2;
+  --md-sys-color-on-primary-container: #00201b;
 
   /* Secondary - Warm Neutral */
-  --md-sys-color-secondary: #4B635C;
-  --md-sys-color-on-secondary: #FFFFFF;
-  --md-sys-color-secondary-container: #CEE9DE;
-  --md-sys-color-on-secondary-container: #07201A;
+  --md-sys-color-secondary: #4b635c;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #cee9de;
+  --md-sys-color-on-secondary-container: #07201a;
 
   /* Tertiary - Soft Blue */
   --md-sys-color-tertiary: #416277;
-  --md-sys-color-on-tertiary: #FFFFFF;
-  --md-sys-color-tertiary-container: #C7E7FF;
-  --md-sys-color-on-tertiary-container: #001E2C;
+  --md-sys-color-on-tertiary: #ffffff;
+  --md-sys-color-tertiary-container: #c7e7ff;
+  --md-sys-color-on-tertiary-container: #001e2c;
 
   /* Error */
-  --md-sys-color-error: #BA1A1A;
-  --md-sys-color-on-error: #FFFFFF;
-  --md-sys-color-error-container: #FFDAD6;
+  --md-sys-color-error: #ba1a1a;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #ffdad6;
   --md-sys-color-on-error-container: #410002;
 
   /* Surface / Background */
-  --md-sys-color-background: #FBFCF8;
-  --md-sys-color-on-background: #191C1A;
-  --md-sys-color-surface: #FBFCF8;
-  --md-sys-color-on-surface: #191C1A;
-  --md-sys-color-surface-variant: #DBE5DE;
+  --md-sys-color-background: #fbfcf8;
+  --md-sys-color-on-background: #191c1a;
+  --md-sys-color-surface: #fbfcf8;
+  --md-sys-color-on-surface: #191c1a;
+  --md-sys-color-surface-variant: #dbe5de;
   --md-sys-color-on-surface-variant: #404943;
   --md-sys-color-outline: #707973;
-  --md-sys-color-outline-variant: #BFC9C2;
+  --md-sys-color-outline-variant: #bfc9c2;
 
   /* Shadow */
   --md-sys-color-shadow: #000000;
-  --md-sys-color-surface-tint: #006B5E;
+  --md-sys-color-surface-tint: #006b5e;
 
   /* Inverse */
-  --md-sys-color-inverse-surface: #2C312E;
-  --md-sys-color-inverse-on-surface: #EFF1EC;
-  --md-sys-color-inverse-primary: #4BDAC4;
+  --md-sys-color-inverse-surface: #2c312e;
+  --md-sys-color-inverse-on-surface: #eff1ec;
+  --md-sys-color-inverse-primary: #4bdac4;
 
   /* --- Typography Scale (Elderly-friendly: 18px base) --- */
-  --md-sys-typescale-body-large-size: 1.125rem;    /* 18px */
-  --md-sys-typescale-body-medium-size: 1.125rem;    /* 18px */
-  --md-sys-typescale-body-small-size: 1rem;          /* 16px */
-  --md-sys-typescale-label-large-size: 1rem;          /* 16px */
-  --md-sys-typescale-label-medium-size: 0.875rem;     /* 14px */
-  --md-sys-typescale-label-small-size: 0.8125rem;     /* 13px */
-  --md-sys-typescale-title-large-size: 1.75rem;       /* 28px */
-  --md-sys-typescale-title-medium-size: 1.375rem;     /* 22px */
-  --md-sys-typescale-title-small-size: 1.125rem;      /* 18px */
-  --md-sys-typescale-headline-large-size: 2.5rem;     /* 40px */
-  --md-sys-typescale-headline-medium-size: 2rem;       /* 32px */
-  --md-sys-typescale-headline-small-size: 1.5rem;      /* 24px */
-  --md-sys-typescale-display-large-size: 3.5rem;       /* 56px */
-  --md-sys-typescale-display-medium-size: 2.75rem;     /* 44px */
-  --md-sys-typescale-display-small-size: 2.25rem;      /* 36px */
+  --md-sys-typescale-body-large-size: 1.125rem; /* 18px */
+  --md-sys-typescale-body-medium-size: 1.125rem; /* 18px */
+  --md-sys-typescale-body-small-size: 1rem; /* 16px */
+  --md-sys-typescale-label-large-size: 1rem; /* 16px */
+  --md-sys-typescale-label-medium-size: 0.875rem; /* 14px */
+  --md-sys-typescale-label-small-size: 0.8125rem; /* 13px */
+  --md-sys-typescale-title-large-size: 1.75rem; /* 28px */
+  --md-sys-typescale-title-medium-size: 1.375rem; /* 22px */
+  --md-sys-typescale-title-small-size: 1.125rem; /* 18px */
+  --md-sys-typescale-headline-large-size: 2.5rem; /* 40px */
+  --md-sys-typescale-headline-medium-size: 2rem; /* 32px */
+  --md-sys-typescale-headline-small-size: 1.5rem; /* 24px */
+  --md-sys-typescale-display-large-size: 3.5rem; /* 56px */
+  --md-sys-typescale-display-medium-size: 2.75rem; /* 44px */
+  --md-sys-typescale-display-small-size: 2.25rem; /* 36px */
 
   --md-sys-typescale-body-large-line-height: 1.6;
   --md-sys-typescale-body-medium-line-height: 1.6;
@@ -70,31 +70,31 @@
 
 /* --- High Contrast Theme --- */
 [data-theme="high-contrast"] {
-  --md-sys-color-primary: #003D35;
-  --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-primary-container: #005B4F;
-  --md-sys-color-on-primary-container: #FFFFFF;
-  --md-sys-color-secondary: #1B332D;
-  --md-sys-color-on-secondary: #FFFFFF;
-  --md-sys-color-secondary-container: #3A514B;
-  --md-sys-color-on-secondary-container: #FFFFFF;
-  --md-sys-color-surface: #FFFFFF;
+  --md-sys-color-primary: #003d35;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #005b4f;
+  --md-sys-color-on-primary-container: #ffffff;
+  --md-sys-color-secondary: #1b332d;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #3a514b;
+  --md-sys-color-on-secondary-container: #ffffff;
+  --md-sys-color-surface: #ffffff;
   --md-sys-color-on-surface: #000000;
-  --md-sys-color-surface-variant: #FFFFFF;
-  --md-sys-color-on-surface-variant: #1B241F;
+  --md-sys-color-surface-variant: #ffffff;
+  --md-sys-color-on-surface-variant: #1b241f;
   --md-sys-color-outline: #000000;
-  --md-sys-color-outline-variant: #4D5650;
+  --md-sys-color-outline-variant: #4d5650;
   --md-sys-color-error: #600004;
-  --md-sys-color-on-error: #FFFFFF;
-  --md-sys-color-background: #FFFFFF;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-background: #ffffff;
   --md-sys-color-on-background: #000000;
   --md-sys-color-inverse-surface: #000000;
-  --md-sys-color-inverse-on-surface: #FFFFFF;
+  --md-sys-color-inverse-on-surface: #ffffff;
 }
 
 /* --- Font Size Scale --- */
 [data-font-size="125"] {
-  --md-sys-typescale-body-large-size: 1.40625rem;   /* 125% of 18px */
+  --md-sys-typescale-body-large-size: 1.40625rem; /* 125% of 18px */
   --md-sys-typescale-body-medium-size: 1.40625rem;
   --md-sys-typescale-body-small-size: 1.25rem;
   --md-sys-typescale-label-large-size: 1.25rem;
@@ -109,7 +109,7 @@
 }
 
 [data-font-size="150"] {
-  --md-sys-typescale-body-large-size: 1.6875rem;    /* 150% of 18px */
+  --md-sys-typescale-body-large-size: 1.6875rem; /* 150% of 18px */
   --md-sys-typescale-body-medium-size: 1.6875rem;
   --md-sys-typescale-body-small-size: 1.5rem;
   --md-sys-typescale-label-large-size: 1.5rem;
@@ -140,7 +140,14 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
   font-size: var(--md-sys-typescale-body-large-size);
   line-height: var(--md-sys-typescale-body-large-line-height);
   color: var(--md-sys-color-on-background);
@@ -257,7 +264,7 @@ a:hover {
 }
 
 .desktop-nav a[aria-current="page"]::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 16px;
@@ -697,7 +704,7 @@ details.faq-item summary::-webkit-details-marker {
 }
 
 details.faq-item summary::before {
-  content: '+';
+  content: "+";
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--md-sys-color-primary);
@@ -708,7 +715,7 @@ details.faq-item summary::before {
 }
 
 details.faq-item[open] summary::before {
-  content: '−';
+  content: "−";
 }
 
 details.faq-item .faq-answer {
@@ -795,7 +802,9 @@ details.faq-item .faq-answer {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: box-shadow 0.2s, transform 0.1s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.1s;
   letter-spacing: 0.5px;
 }
 
@@ -859,7 +868,9 @@ details.faq-item .faq-answer {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .phone-fab:hover {

@@ -6,15 +6,15 @@ A static informational website for an ENT medical practice in Montego Bay, Jamai
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Build tool | Vite 5 |
-| UI framework | Vanilla HTML/CSS (no SPA framework) |
-| Component library | Material Web (`@material/web`) — Google's MD3 Web Components |
-| Icons | Emoji / Material Symbols |
-| Content management | `content.json` — build-time injection |
-| Form handling | Netlify Forms (no backend needed) |
-| Deployment | Netlify (static export) |
+| Layer              | Technology                                                   |
+| ------------------ | ------------------------------------------------------------ |
+| Build tool         | Vite 5                                                       |
+| UI framework       | Vanilla HTML/CSS (no SPA framework)                          |
+| Component library  | Material Web (`@material/web`) — Google's MD3 Web Components |
+| Icons              | Emoji / Material Symbols                                     |
+| Content management | `content.json` — build-time injection                        |
+| Form handling      | Netlify Forms (no backend needed)                            |
+| Deployment         | Netlify (static export)                                      |
 
 ## Project Structure
 
@@ -57,38 +57,49 @@ ent_clinic_mobay_site/
 ## Development Workflow
 
 ### First Time Setup
+
 ```bash
 npm install
 ```
 
 ### Local Development
+
 ```bash
 npm run dev
 ```
+
 This runs: `node scripts/generate.mjs && vite`
+
 - Generates HTML from templates + content.json
 - Starts Vite dev server with hot reload
 - Opens at `http://localhost:5173`
 
 ### Production Build
+
 ```bash
 npm run build
 ```
+
 This runs: `node scripts/generate.mjs && vite build`
+
 - Generates HTML
 - Builds to `dist/` folder
 - Output: 6 HTML pages + 1 CSS file + 1 JS file
 
 ### Preview Production Build
+
 ```bash
 npm run preview
 ```
+
 Serves the `dist/` folder locally.
 
 ### Content-Only Regeneration
+
 ```bash
 npm run generate
 ```
+
 Only runs the content generator (no Vite build). Useful to see template output without building.
 
 ## Editing Content
@@ -125,43 +136,48 @@ To change any site text, edit ONLY `content.json`. No HTML changes needed.
 ```
 
 ### Adding New Content
+
 1. Add your data to `content.json` under the appropriate page
 2. Add the placeholder (e.g., `{{pages.home.new_section_title}}`) to the HTML template
 3. Run `npm run generate` to test
 
 ## Accessibility Features
 
-| Feature | Implementation |
-|---------|---------------|
-| Skip navigation link | First focusable element on every page |
-| Font-size toggle (A / A⁺ / A⁺⁺) | Mobile drawer, persists in `localStorage` |
-| High-contrast mode toggle | Mobile drawer, persists in `localStorage` |
-| 18px base body font | Elderly-friendly readability |
-| Large touch targets (≥48px) | All interactive elements |
-| Reduced motion support | Respects `prefers-reduced-motion` |
-| Clear focus indicators | 3px `outline` on `:focus-visible` |
-| Semantic HTML | `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>` |
-| `aria-current="page"` | Active nav link marking |
-| Native `<details>` FAQ | Best screen reader support |
-| Hours as list (not table) | Better mobile readability for elderly |
+| Feature                         | Implementation                                         |
+| ------------------------------- | ------------------------------------------------------ |
+| Skip navigation link            | First focusable element on every page                  |
+| Font-size toggle (A / A⁺ / A⁺⁺) | Mobile drawer, persists in `localStorage`              |
+| High-contrast mode toggle       | Mobile drawer, persists in `localStorage`              |
+| 18px base body font             | Elderly-friendly readability                           |
+| Large touch targets (≥48px)     | All interactive elements                               |
+| Reduced motion support          | Respects `prefers-reduced-motion`                      |
+| Clear focus indicators          | 3px `outline` on `:focus-visible`                      |
+| Semantic HTML                   | `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>` |
+| `aria-current="page"`           | Active nav link marking                                |
+| Native `<details>` FAQ          | Best screen reader support                             |
+| Hours as list (not table)       | Better mobile readability for elderly                  |
 
 ## Netlify Deployment
 
 ### Automatic (recommended)
+
 1. Push to GitHub
 2. In Netlify Dashboard → **Add new site** → **Import from Git**
 3. Select repo → Netlify auto-detects config from `netlify.toml`
 4. Enable **Netlify Forms** in Site Settings → Forms
 
 ### Manual
+
 1. `npm run build` — generates `dist/`
 2. Drag-and-drop `dist/` folder into Netlify Deploy page
 
 ### Netlify Forms
+
 The contact form uses Netlify Forms — no backend needed. Submissions appear in:
 **Netlify Dashboard → Your Site → Forms**
 
 The form is configured with:
+
 - `name="contact"` attribute on `<form>`
 - `netlify` attribute (or `data-netlify="true"`)
 - Hidden `form-name` input
@@ -169,17 +185,21 @@ The form is configured with:
 ## Debugging Tips
 
 ### Content generator issues
+
 ```bash
 node scripts/generate.mjs  # Shows which files were processed
 ```
+
 Look for `⚠ Missing content key` warnings — they indicate placeholders not found in `content.json`.
 
 ### Vite build issues
+
 ```bash
 npm run build  # Shows build output and any errors
 ```
 
 ### Browser testing
+
 - Open DevTools → **Console** for JS errors
 - DevTools → **Lighthouse** → Run accessibility audit
 - Test keyboard navigation: Tab through all interactive elements
