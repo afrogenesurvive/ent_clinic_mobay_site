@@ -1,0 +1,71 @@
+{
+  "seo_title": "Our Team — ENT Clinic Mobay",
+  "title": "Our Team",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Meet our dedicated team of ENT specialists and healthcare professionals.",
+  "physicians": {
+    "heading": "👨‍⚕️ Physicians",
+    "members": [
+      {
+        "avatar": "👨‍⚕️",
+        "name": "Dr. John Smith",
+        "credentials": "MD, FACS",
+        "specialty": "Otolaryngology — Head & Neck Surgery",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      },
+      {
+        "avatar": "👩‍⚕️",
+        "name": "Dr. Sarah Johnson",
+        "credentials": "MD, MPH",
+        "specialty": "Pediatric Otolaryngology",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      },
+      {
+        "avatar": "👨‍⚕️",
+        "name": "Dr. Michael Brown",
+        "credentials": "MD",
+        "specialty": "Otology — Hearing & Balance Disorders",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      },
+      {
+        "avatar": "👩‍⚕️",
+        "name": "Dr. Emily Davis",
+        "credentials": "MD, FARS",
+        "specialty": "Rhinology — Sinus & Allergy Surgery",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      }
+    ]
+  },
+  "staff": {
+    "heading": "🤝 Nursing & Administrative Staff",
+    "members": [
+      {
+        "avatar": "🩺",
+        "name": "Lisa Williams",
+        "credentials": "RN, BSN",
+        "role": "Head Nurse",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "avatar": "🩺",
+        "name": "James Thompson",
+        "credentials": "LPN",
+        "role": "Clinical Nurse",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "avatar": "📋",
+        "name": "Maria Garcia",
+        "credentials": "",
+        "role": "Practice Manager",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "avatar": "📞",
+        "name": "David Clarke",
+        "credentials": "",
+        "role": "Patient Services Coordinator",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
+  }
+}

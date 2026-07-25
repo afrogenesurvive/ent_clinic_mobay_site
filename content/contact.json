@@ -1,0 +1,31 @@
+{
+  "seo_title": "Contact — ENT Clinic Mobay",
+  "title": "Contact Us",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We'd love to hear from you.",
+  "form": {
+    "heading": "Send an Inquiry",
+    "fields": [
+      { "label": "Full Name", "type": "text", "name": "name", "placeholder": "Your full name", "required": true },
+      { "label": "Phone Number", "type": "tel", "name": "phone", "placeholder": "(876) 555-1234", "required": false },
+      { "label": "Email Address", "type": "email", "name": "email", "placeholder": "your@email.com", "required": true },
+      { "label": "Subject", "type": "select", "name": "subject", "required": true },
+      { "label": "Message", "type": "textarea", "name": "message", "placeholder": "How can we help you?", "required": true }
+    ],
+    "subject_options": [
+      { "value": "", "label": "Please select a subject" },
+      { "value": "appointment", "label": "Appointment Request" },
+      { "value": "general", "label": "General Inquiry" },
+      { "value": "insurance", "label": "Insurance Question" },
+      { "value": "records", "label": "Medical Records Request" },
+      { "value": "feedback", "label": "Feedback / Suggestion" },
+      { "value": "other", "label": "Other" }
+    ],
+    "submit_text": "Send Message",
+    "submitting_text": "Submitting your message..."
+  },
+  "sidebar": {
+    "heading": "Get in Touch",
+    "cta_phone": "📞 Call us directly at (876) 555-1234",
+    "cta_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our team is available during business hours."
+  }
+}

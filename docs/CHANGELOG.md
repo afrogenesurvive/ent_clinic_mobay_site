@@ -1,5 +1,15 @@
 # Changelog
 
+## [main-3] — 2026-07-25
+
+### Changed
+- Modularized `content.json` into separate files in `content/` directory (one per page + site settings)
+- Updated `scripts/generate.mjs` to read & merge all JSON files from `content/` directory
+- Updated `docs/DEV.md` to reflect new content structure
+
+### Removed
+- Monolithic `content.json` (replaced by `content/` directory)
+
 ## [main-2] — 2026-07-24
 
 ### Changed

@@ -1,0 +1,87 @@
+{
+  "seo_title": "Services — ENT Clinic Mobay",
+  "title": "Our Services",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "categories": [
+    {
+      "heading": "🔬 Diagnostic Services",
+      "cards": [
+        {
+          "icon": "👂",
+          "title": "Hearing Assessments",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🫁",
+          "title": "Allergy Testing",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🔍",
+          "title": "Endoscopic Examinations",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "📊",
+          "title": "Sleep Studies",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        }
+      ]
+    },
+    {
+      "heading": "🔪 Surgical Services",
+      "cards": [
+        {
+          "icon": "🫁",
+          "title": "Sinus Surgery",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🗣️",
+          "title": "Tonsillectomy & Adenoidectomy",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "👂",
+          "title": "Ear Tube Surgery",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🦴",
+          "title": "Thyroid & Parathyroid Surgery",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        }
+      ]
+    },
+    {
+      "heading": "💊 Treatment & Management",
+      "cards": [
+        {
+          "icon": "🤧",
+          "title": "Allergy Management",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "😷",
+          "title": "Chronic Sinusitis Treatment",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🦻",
+          "title": "Hearing Aid Services",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        },
+        {
+          "icon": "🧠",
+          "title": "Vestibular & Balance Therapy",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Not Sure Which Service You Need?",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Contact us and we'll help guide you.",
+    "button": "Contact Us"
+  }
+}

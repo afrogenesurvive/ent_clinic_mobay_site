@@ -1,0 +1,37 @@
+{
+  "seo_title": "About — ENT Clinic Mobay",
+  "title": "About ENT Clinic Mobay",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "practice": {
+    "heading": "Our Practice",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    ],
+    "photo_placeholder": "🏥 Clinic Photo Placeholder"
+  },
+  "location_contact": {
+    "heading": "Location & Contact"
+  },
+  "parking": {
+    "heading": "Parking & Accessibility",
+    "cards": [
+      {
+        "icon": "🅿️",
+        "title": "Parking",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt. Complimentary parking available for all patients."
+      },
+      {
+        "icon": "♿",
+        "title": "Wheelchair Accessible",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our facility is fully wheelchair accessible with ramps and wide doorways."
+      },
+      {
+        "icon": "🚌",
+        "title": "Public Transport",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Easily accessible via main bus routes. We are located near the Montego Bay transport centre."
+      }
+    ]
+  }
+}

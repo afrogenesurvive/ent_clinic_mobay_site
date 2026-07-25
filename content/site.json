@@ -1,0 +1,44 @@
+{
+  "name": "ENT Clinic Mobay",
+  "tagline": "Expert ENT Care in Montego Bay",
+  "phone": "(876) 555-1234",
+  "phone_tel": "+18765551234",
+  "email": "info@entclinicmobay.com",
+  "address": {
+    "street": "123 Main Street",
+    "city": "Montego Bay, St. James",
+    "country": "Jamaica",
+    "lines": ["123 Main Street", "Montego Bay, St. James", "Jamaica"]
+  },
+  "hours": [
+    { "day": "Mon – Fri", "time": "8:00 AM – 5:00 PM" },
+    { "day": "Saturday", "time": "9:00 AM – 1:00 PM" },
+    { "day": "Sunday", "time": "Closed" }
+  ],
+  "footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "copyright": "© 2026 ENT Clinic Mobay. All rights reserved. Lorem ipsum dolor sit amet."
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about.html" },
+    { "label": "Services", "href": "/services.html" },
+    { "label": "Our Team", "href": "/team.html" },
+    { "label": "FAQs", "href": "/faq.html" },
+    { "label": "Contact", "href": "/contact.html" }
+  ],
+  "nav_mobile": [
+    { "label": "Home", "href": "/", "icon": "🏠" },
+    { "label": "About", "href": "/about.html", "icon": "ℹ️" },
+    { "label": "Services", "href": "/services.html", "icon": "🩺" },
+    { "label": "Our Team", "href": "/team.html", "icon": "👥" },
+    { "label": "FAQs", "href": "/faq.html", "icon": "❓" },
+    { "label": "Contact", "href": "/contact.html", "icon": "✉️" }
+  ],
+  "a11y": {
+    "skip_link": "Skip to main content",
+    "section_heading": "Accessibility",
+    "font_size_label": "Font Size",
+    "contrast_label": "High Contrast"
+  }
+}

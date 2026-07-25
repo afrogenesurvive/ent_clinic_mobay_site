@@ -1,0 +1,63 @@
+{
+  "seo_title": "ENT Clinic Mobay — Home",
+  "hero": {
+    "title": "Expert ENT Care in Montego Bay",
+    "subtitle": "Compassionate, comprehensive ear, nose, and throat care for the whole family — right here in Mobay.",
+    "cta_primary": "Book an Appointment",
+    "cta_secondary": "Explore Our Services"
+  },
+  "highlights": {
+    "title": "Why Choose ENT Clinic Mobay?",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "cards": [
+      {
+        "icon": "👨‍⚕️",
+        "title": "Experienced ENT Specialists",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      },
+      {
+        "icon": "🏥",
+        "title": "State-of-the-Art Facility",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      },
+      {
+        "icon": "❤️",
+        "title": "Patient-Centered Care",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+      }
+    ]
+  },
+  "quick_links": {
+    "title": "Quick Links",
+    "cards": [
+      {
+        "icon": "👥",
+        "title": "Meet Our Team",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Learn more about our dedicated physicians and staff.",
+        "href": "/team.html"
+      },
+      {
+        "icon": "❓",
+        "title": "Medical FAQs",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Find answers to common questions about symptoms and treatments.",
+        "href": "/faq.html"
+      },
+      {
+        "icon": "✉️",
+        "title": "Contact Us",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Send us a message or give us a call.",
+        "href": "/contact.html"
+      }
+    ]
+  },
+  "map": {
+    "title": "Our Location",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "cta": {
+    "title": "Ready to Visit Us?",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Call us or book online today.",
+    "phone_text": "📞 Call (876) 555-1234",
+    "inquiry_text": "Send an Inquiry"
+  }
+}

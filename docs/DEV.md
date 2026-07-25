@@ -2,7 +2,7 @@
 
 ## Overview
 
-A static informational website for an ENT medical practice in Montego Bay, Jamaica. Built with **Vite**, **Vanilla JS**, and **Material Web (MD3)** components. Content is managed centrally via `content.json` and injected at build time.
+A static informational website for an ENT medical practice in Montego Bay, Jamaica. Built with **Vite**, **Vanilla JS**, and **Material Web (MD3)** components. Content is managed modularly via the `content/` directory and injected at build time.
 
 ## Tech Stack
 
@@ -12,7 +12,7 @@ A static informational website for an ENT medical practice in Montego Bay, Jamai
 | UI framework       | Vanilla HTML/CSS (no SPA framework)                          |
 | Component library  | Material Web (`@material/web`) — Google's MD3 Web Components |
 | Icons              | Emoji / Material Symbols                                     |
-| Content management | `content.json` — build-time injection                        |
+| Content management | `content/` directory — modular JSON files                    |
 | Form handling      | Netlify Forms (no backend needed)                            |
 | Deployment         | Netlify (static export)                                      |
 
@@ -26,7 +26,14 @@ ent_clinic_mobay_site/
 ├── team.html               # Team page (Physicians + Staff)
 ├── faq.html                # FAQs page (3 categories, 14 Q&As)
 ├── contact.html            # Contact form + inquiry page
-├── content.json            # ALL text content (editable by non-devs)
+├── content/                # Modular JSON content files (editable by non-devs)
+│   ├── site.json           #   Site-wide settings (nav, footer, hours, a11y)
+│   ├── home.json           #   Home page content
+│   ├── about.json          #   About page content
+│   ├── services.json       #   Services page content
+│   ├── team.json           #   Team page content
+│   ├── faq.json            #   FAQ page content
+│   └── contact.json        #   Contact page content
 ├── netlify.toml            # Netlify deployment configuration
 ├── vite.config.js          # Vite multi-page configuration
 ├── package.json            # Dependencies and scripts
@@ -44,7 +51,7 @@ ent_clinic_mobay_site/
 
 ## How Content Injection Works
 
-1. **`content.json`** contains ALL text content for the site — headings, paragraphs, card data, FAQ Q&As, team bios, form labels, footer text.
+1. **`content/` directory** contains modular JSON files — one per page plus `site.json` for site-wide settings (headings, paragraphs, card data, FAQ Q&As, team bios, form labels, footer text).
 
 2. **HTML templates** use placeholder syntax that the generator replaces:
    - `{{pages.home.hero.title}}` — simple value replacement
@@ -52,7 +59,7 @@ ent_clinic_mobay_site/
    - Inside `{{#each}}`, use `{{title}}`, `{{text}}` etc. to access item properties
    - Nested `{{#each}}` blocks are supported (e.g., services categories → cards)
 
-3. **`scripts/generate.mjs`** reads `content.json`, processes each HTML file, replaces placeholders, and writes the result back to the same file.
+3. **`scripts/generate.mjs`** reads all JSON files from the `content/` directory, merges them into a single content tree, processes each HTML file, replaces placeholders, and writes the result back to the same file.
 
 ## Development Workflow
 
@@ -70,7 +77,7 @@ npm run dev
 
 This runs: `node scripts/generate.mjs && vite`
 
-- Generates HTML from templates + content.json
+- Generates HTML from templates + content/ directory
 - Starts Vite dev server with hot reload
 - Opens at `http://localhost:5173`
 
@@ -104,40 +111,35 @@ Only runs the content generator (no Vite build). Useful to see template output w
 
 ## Editing Content
 
-To change any site text, edit ONLY `content.json`. No HTML changes needed.
+Content is split across multiple files in the `content/` directory. Edit the file for the page you want to change — no HTML changes needed.
 
-### Content Structure
+| File | Contains |
+|------|----------|
+| `content/site.json` | Site name, phone, email, address, hours, nav links, footer, a11y settings |
+| `content/home.json` | Hero section, highlight cards, quick links, map, CTA |
+| `content/about.json` | Practice info, location & contact, parking & accessibility |
+| `content/services.json` | Service categories and cards |
+| `content/team.json` | Physicians and staff members |
+| `content/faq.json` | FAQ categories and Q&A items |
+| `content/contact.json` | Contact form fields, subject options, sidebar |
 
-```json
-{
-  "site": {
-    "name": "ENT Clinic Mobay",
-    "phone": "(876) 555-1234",
-    "email": "info@entclinicmobay.com",
-    "address": { "street": "123 Main Street", ... },
-    "hours": [
-      { "day": "Mon – Fri", "time": "8:00 AM – 5:00 PM" },
-      ...
-    ],
-    "nav": [
-      { "label": "Home", "href": "/" },
-      ...
-    ]
-  },
-  "pages": {
-    "home": { ... },
-    "about": { ... },
-    "services": { ... },
-    "team": { ... },
-    "faq": { ... },
-    "contact": { ... }
-  }
-}
+### Content Structure (conceptual)
+
+At build time, all files are merged into this structure:
+
+```
+site.*        ← content/site.json
+pages.home.*  ← content/home.json
+pages.about.* ← content/about.json
+pages.services.* ← content/services.json
+pages.team.*  ← content/team.json
+pages.faq.*   ← content/faq.json
+pages.contact.* ← content/contact.json
 ```
 
 ### Adding New Content
 
-1. Add your data to `content.json` under the appropriate page
+1. Add your data to the appropriate file in `content/` (or create a new page file)
 2. Add the placeholder (e.g., `{{pages.home.new_section_title}}`) to the HTML template
 3. Run `npm run generate` to test
 
@@ -190,7 +192,7 @@ The form is configured with:
 node scripts/generate.mjs  # Shows which files were processed
 ```
 
-Look for `⚠ Missing content key` warnings — they indicate placeholders not found in `content.json`.
+Look for `⚠ Missing content key` warnings — they indicate placeholders not found in the `content/` directory files.
 
 ### Vite build issues
 

@@ -1,14 +1,21 @@
 /**
  * Content Generator — ENT Clinic Mobay
  *
- * Reads content.json + HTML templates (with {{placeholders}}),
- * generates final HTML files with all content injected.
+ * Reads JSON files from the content/ directory + HTML templates
+ * (with {{placeholders}}), generates final HTML files with all
+ * content injected.
  *
  * Usage:
  *   node scripts/generate.mjs
  *
+ * Content structure:
+ *   content/site.json   → site.*          (site-wide settings)
+ *   content/home.json   → pages.home.*    (home page)
+ *   content/about.json  → pages.about.*   (about page)
+ *   ...etc (any page file maps to pages.{filename}.*)
+ *
  * Template syntax:
- *   {{path.to.key}}              — Simple text replacement from content.json
+ *   {{path.to.key}}              — Simple text replacement from content
  *   {{#each path}}...{{/each}}   — Iterate an array, repeat the block for each item
  *   {{prop}}                     — Inside #each, references current item property
  */
@@ -138,20 +145,39 @@ function processTemplate(template, content, context) {
   return result;
 }
 
-// ─── Main ──────────────────────────────────────────────────────────
-function main() {
-  console.log("🔧 Generating content from content.json...\n");
-
-  // Read content
-  const contentPath = resolve(root, "content.json");
-  let content;
-  try {
-    content = JSON.parse(readFileSync(contentPath, "utf-8"));
-    console.log("  ✅ Loaded content.json");
-  } catch (err) {
-    console.error("  ❌ Failed to read content.json:", err.message);
+// ─── Read & merge content from content/ directory ────────────────
+function loadContent(contentDir) {
+  const files = readdirSync(contentDir).filter((f) => f.endsWith(".json"));
+  if (files.length === 0) {
+    console.error("  ❌ No JSON files found in content/ directory");
     process.exit(1);
   }
+
+  const content = { pages: {} };
+
+  for (const file of files) {
+    const key = file.replace(".json", "");
+    const data = JSON.parse(readFileSync(resolve(contentDir, file), "utf-8"));
+
+    if (key === "site") {
+      content.site = data;
+      console.log(`  ✅ Loaded content/${file} → site`);
+    } else {
+      content.pages[key] = data;
+      console.log(`  ✅ Loaded content/${file} → pages.${key}`);
+    }
+  }
+
+  return content;
+}
+
+// ─── Main ──────────────────────────────────────────────────────────
+function main() {
+  console.log("🔧 Generating content from content/ directory...\n");
+
+  // Read content
+  const contentDir = resolve(root, "content");
+  const content = loadContent(contentDir);
 
   // Find all HTML template files in root
   const files = readdirSync(root).filter((f) => f.endsWith(".html") && f !== "contact-success.html");
