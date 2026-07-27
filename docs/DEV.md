@@ -113,15 +113,15 @@ Only runs the content generator (no Vite build). Useful to see template output w
 
 Content is split across multiple files in the `content/` directory. Edit the file for the page you want to change — no HTML changes needed.
 
-| File | Contains |
-|------|----------|
-| `content/site.json` | Site name, phone, email, address, hours, nav links, footer, a11y settings |
-| `content/home.json` | Hero section, highlight cards, quick links, map, CTA |
-| `content/about.json` | Practice info, location & contact, parking & accessibility |
-| `content/services.json` | Service categories and cards |
-| `content/team.json` | Physicians and staff members |
-| `content/faq.json` | FAQ categories and Q&A items |
-| `content/contact.json` | Contact form fields, subject options, sidebar |
+| File                    | Contains                                                                  |
+| ----------------------- | ------------------------------------------------------------------------- |
+| `content/site.json`     | Site name, phone, email, address, hours, nav links, footer, a11y settings |
+| `content/home.json`     | Hero section, highlight cards, quick links, map, CTA                      |
+| `content/about.json`    | Practice info, location & contact, parking & accessibility                |
+| `content/services.json` | Service categories and cards                                              |
+| `content/team.json`     | Physicians and staff members                                              |
+| `content/faq.json`      | FAQ categories and Q&A items                                              |
+| `content/contact.json`  | Contact form fields, subject options, sidebar                             |
 
 ### Content Structure (conceptual)
 
